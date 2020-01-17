@@ -28,14 +28,39 @@ footer {
 
 h2 {
     border-bottom: 1px solid black;
-    max-width: 760px;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.1em;
 }
 
-#myPortrait {
-    transform: scale(0.70);
-    border-radius: 8px;
-    box-shadow: 0px 0px 30px black;
+h5 {
+    margin-top: -15px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #FFAB2E;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #FFAB2E;
+}
+
+a:hover {
+    color: black;
+    font-style: italic;
+}
+
+a:active {
+    color: black;
+    font-weight: bold;
 }
 
 #BYU_Link {
