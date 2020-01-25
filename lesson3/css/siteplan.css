@@ -1,0 +1,95 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    }
+    
+    header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 900px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+    
+    header, footer {
+    background-color: #5402B3;
+    text-align: center;
+    color:#ffffff;
+    border-radius: 20px;
+    }
+    
+    header {
+    padding: 1.25rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    }
+    
+    footer {
+    padding: .7rem 1.25rem;
+    }
+
+    nav {
+        text-align: center;
+        background-color: #5402B3;
+        margin-top: -80px;   
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    nav a:link {
+        color: white;
+        text-decoration: none;
+        display: block;
+        }
+        
+    nav a:visited {
+        color: white;
+        }
+        
+    nav a:hover {
+        color: #FFAB2E;
+        font-style: italic;
+        }
+        
+    nav a:active {
+        color: #FFAB2E;;
+        font-weight: bold;
+        }
+    
+    h2 {
+        border-bottom: 1px solid black;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    #headertext {
+        font-family: 'Merriweather', serif;
+        font-size: 2.5em;
+    }
+
+    #bodytext {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    #colorscheme {
+        width: 88%;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #colorchoices {
+        text-align: center;
+    }
+    
+    #BYU_Link {
+    color: #ffffff;
+    text-decoration: underline;
+    }
+    
+    #updated {
+    margin: -5px 0;
+    color: #FFAB2E;
+    }
