@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Work+Sans&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+  <header>
+    <img id="companylogo" src="images/weatherlogo.png" alt="Involve WX logo image">
+    <h1>Involve WX</h1>
+    <h5>For all your activities Involve WX</h5>
+  </header>
+  
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">Menu</button>
+    <ul id="navMenu" class="hide">
+      <li><a href="">Home</a></li>
+      <li><a href="">Preston</a></li>
+      <li><a href="">Soda Springs</a></li>
+      <li><a href="">Fish Haven</a></li>
+      <li><a href="">Storm Center</a></li>
+      <li><a href="">Gallery</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Preston Idaho</h2>
+    
+    <div class="content">Hero with Weather Summary</div>
+    
+    <div class="content">Five Day Forecast</div>
+  
+    <div class="content">Article</div>
+
+    <div class="content">Contact info</div>
+  </main>
+  
+  <footer>
+    &copy; Involve WX | Attributions | Jon Trowbridge
+    <p id="currentDate"></p> 
+  </footer>
+  
+  <script src="js/weather.js"></script>
+</body>
+</html>
