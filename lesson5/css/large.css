@@ -1,0 +1,31 @@
+@media only screen and (min-width: 64em) {
+
+    main, footer {
+        max-width: 75%;
+    }
+    nav ul {
+        margin-left: 2%;
+        justify-content: center;
+    }
+
+    nav ul.hide {display: block;}
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .3);
+        padding: .6rem 1rem;
+    }
+
+    #companylogo {
+    width: 140px;
+    }
+    
+}
