@@ -24,6 +24,11 @@
         padding: .6rem 1rem;
     }
 
+    #map {
+        display: inline-block;
+        width: 500px;
+    }
+
     #companylogo {
     width: 140px;
     }
