@@ -69,7 +69,22 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, .3);
 }
 
-nav ul li a:active {background-color: rgba(0, 0, 0, .3)}
+.current {
+    background-color: rgba(0, 0, 0, .3);
+    font-weight: bold;
+}
+
+#banner {
+    display: none;
+    width: 100%;
+    background: radial-gradient(yellow, orange);
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    box-shadow: 0 0 30px black;
+}
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, .3);
@@ -145,6 +160,32 @@ main h2 {
 
 .contact {
     margin-left: 30px;
+}
+
+.forecastimage {
+    width: 50px;
+}
+
+.forecast {
+    text-align: center;
+}
+
+table, th, td {
+	border:1px solid #333;
+	border-collapse: collapse;
+    padding: 10px;
+    background-color: #B1C7CC;
+    margin: 5px auto;
+    font-size: smaller;
+}
+
+th {
+    background-color: rgba(0, 0, 0, .2);
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
 }
 
 #map {

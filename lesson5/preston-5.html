@@ -19,20 +19,25 @@
 <body>
   
   <header>
-    <img id="companylogo" src="images/weatherlogo.png" alt="Involve WX logo image">
-    <h1>Involve WX</h1>
-    <h5>For all your activities Involve WX</h5>
+    <div id="banner">
+      <p>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <div class="header">
+      <img id="companylogo" src="images/weatherlogo.png" alt="Involve WX logo image">
+      <h1>Involve WX</h1>
+      <h5>For all your activities Involve WX</h5>
+    </div>
   </header>
   
   <nav class="clearfix">
     <button onclick="toggleMenu()">Menu</button>
     <ul id="navMenu" class="hide">
-      <li><a href="">Home</a></li>
-      <li><a href="preston-5.html">Preston</a></li>
-      <li><a href="">Soda Springs</a></li>
-      <li><a href="">Fish Haven</a></li>
-      <li><a href="">Storm Center</a></li>
-      <li><a href="">Gallery</a></li>
+      <li><a href="" class="">Home</a></li>
+      <li><a href="preston-5.html" class="current">Preston</a></li>
+      <li><a href="" class="">Soda Springs</a></li>
+      <li><a href="" class="">Fish Haven</a></li>
+      <li><a href="" class="">Storm Center</a></li>
+      <li><a href="" class="">Gallery</a></li>
     </ul>
   </nav>
   
@@ -44,20 +49,49 @@
       <section class="weathersummary">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
-        <p>High: 76&degF</p>
-        <p>Wind Chill: &degF</p>
+        <p>High: 76&deg;F</p>
+        <p>Wind Chill: &deg;F</p>
         <p>Humidity: 69%</p>
         <p>Wind Speed: 5 mph</p>
       </section>
     </div>
     
-    <div class="forecast">Five Day Forecast</div>
+    <div class="forecast">
+      <h4>Five Day Forecast</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img class="forecastimage" src="images/sun.png" alt="Sunny"><br> 89&deg;F
+            </td>
+            <td>
+              <img class="forecastimage" src="images/sun.png" alt="Sunny"><br> 87&deg;F </td>
+            <td>
+              <img class="forecastimage" src="images/sun.png" alt="Sunny"><br> 78&deg;F </td>
+            <td>
+              <img class="forecastimage" src="images/sun.png" alt="Sunny"><br> 75&deg;F
+            </td>
+            <td>
+              <img class="forecastimage" src="images/sun.png" alt="Sunny"><br> 72&deg;F
+            </td>
+          </tr>
+      </table>
+    </div>
   
     <div class="article">
       <img id="articleimage" src="images/idaho_rock.jpg" alt="Rock in Idaho">
       <h4>Article</h4>
       <h6>By Jon Trowbridge</h6>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam dolorem cum asperiores mollitia earum velit possimus deserunt? Veniam deserunt totam assumenda est quia ea aspernatur nostrum animi, libero sed?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam dolorem cum asperiores mollitia earum velit possimus deserunt? Veniam deserunt totam assumenda est quia ea aspernatur nostrum animi, libero sed? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil veniam assumenda, magnam illo quidem voluptas repellendus animi quis repudiandae possimus in temporibus suscipit. Reprehenderit obcaecati aliquid saepe laboriosam ab!</p>
 
     </div>
 
