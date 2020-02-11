@@ -1,14 +1,16 @@
 @media only screen and (min-width: 64em) {
 
     main, footer {
-        max-width: 75%;
+        max-width: 900px;
+        width: 100%;
     }
     nav ul {
-        margin-left: 2%;
+        /*margin-left: 2%;*/
         justify-content: center;
+        display: flex;
     }
 
-    nav ul.hide {display: block;}
+    nav ul.hide {display: flex;}
 
     nav button {
         display: none;
@@ -22,6 +24,10 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, .3);
         padding: .6rem 1rem;
+    }
+
+    nav ul li a:first-child {
+        border-left: 1px solid rgba(0, 0, 0, .3);
     }
 
     #map {

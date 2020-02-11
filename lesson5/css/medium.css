@@ -1,18 +1,18 @@
 @media only screen and (min-width: 35em) {
 
     header {
-        height: 145px;
+        /*height: 145px;*/
         text-align: left;
     }
 
     header h1 {
         margin-top: 30px;
-        margin-left: 200px;
+        /*margin-left: 200px;*/
     }
 
-    header h5 {
+    /*header h5 {
         margin-left: 200px;
-    }
+    }*/
         
     nav {
         margin: 0;
@@ -55,10 +55,10 @@
     }
 
     #companylogo {
-    width: 125px;
-    float: left;
-    margin-left: 1rem;
-    margin-top: -10px;
+        /*width: 125px;
+        float: left;
+        margin-left: 1rem;
+        margin-top: -10px;*/
     }
 
     #articleimage {

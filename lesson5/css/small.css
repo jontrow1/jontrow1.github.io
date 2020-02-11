@@ -1,5 +1,5 @@
 body {
-    background-color: #E0C6AD;
+    background-color: #F3EAE1;
     font-size: 18px;
     line-height: 1.5;
     max-width: 100%;
@@ -18,11 +18,18 @@ header, footer {
 
 header {
     padding-top: 10px;
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     font-size: .9em;
+}
+
+main {
+    padding: 5px;
 }
 
 h1 {
@@ -32,7 +39,7 @@ h1 {
 
 h5 {
     font-family: 'Work Sans', sans-serif;
-    margin-top: -10px;
+    margin-top: 0;
 }
 
 nav button {
@@ -42,11 +49,12 @@ nav button {
     font-size: 1.6rem;
     color: #ADD6E0;    
     cursor: pointer;
+    width: 95%;
 }
 
 nav {
     background-color: rgba(0, 0, 0, .7);
-    margin-top: -24px;
+    /*margin-top: -24px;*/
     text-align: center;
     font-family: 'Work Sans', sans-serif;
 }
@@ -197,7 +205,8 @@ td {
 }
 
 #companylogo {
-    width: 100px;
+    /*width: 100px;*/
+    display: inline-block;
     padding: 0;
     margin: 0;
 }
@@ -211,6 +220,10 @@ td {
     width: 300px;
     margin: 5px auto;
     box-shadow: 0 0 30px grey;
+}
+
+#companymotto {
+    display: inline-block;
 }
 
 
