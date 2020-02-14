@@ -132,6 +132,14 @@ main h2 {
     position: relative;
 }
 
+main figure.herophoto {
+    width: 100%;
+}
+
+main figure.herophoto img {
+    width: 100%;
+}
+
 .weathersummary {
     position: absolute;
     top: -20px;

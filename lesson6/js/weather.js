@@ -9,3 +9,12 @@ var date = new Date();
 if (date.getDay() == 5) {
     document.getElementById("banner").style.display="block";
 }
+
+WebFont.load({
+    google: {
+      families: [
+         'Merriweather',
+         'Work Sans'
+      ]
+    }
+});
