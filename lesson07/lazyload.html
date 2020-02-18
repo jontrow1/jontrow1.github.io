@@ -1,21 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <h1></h1>
-    <picture>
-        <img>
-    </picture>
-    <picture>
-        <img>
-    </picture>
-    <picture>
-        <img>
-    </picture>
-    <picture>
-        <img>
-    </picture>
-    <picture>
-        <img>
-    </picture>
-    <picture>
-        <img>
-    </picture>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lazy Load page</title>
+  <meta name="description" content="This is my lazy-load page">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/lazyload.css" rel="stylesheet">
 </head>
+<body>
+    <main>
+        <h1>Lazy Loading Page</h1>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo1.jpg" alt="Interior of the Millenium Falcon">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo2.jpg" alt="Savannah meeting Merida">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo3.jpg" alt="Alexis and a baby alligator">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo4.jpg" alt="My homemade Jedi costume">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo5.jpg" alt="My daughters at the Orlando Temple">
+        </picture>
+        <picture>
+            <img src="images/Placeholder.jpg" data-src="images/photo6.jpg" alt="Heather blowing out her birthday candle">
+        </picture>
+    </main>
+</body>
+<script src ="js/lazyload.js" defer></script>
+</html>
