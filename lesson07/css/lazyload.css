@@ -1,7 +1,12 @@
-body{
+body {
     background-color: tan;
     text-align: center;
     font-family: "Trebuchet MS";
+}
+
+main {
+    display: grid;
+    grid-column: 1;
 }
 
 picture img[data-src] {
