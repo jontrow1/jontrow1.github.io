@@ -19,6 +19,7 @@ header, footer {
 header {
     padding-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -93,7 +94,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: #ADD6E0;
+    color: black;
     cursor: pointer;
 }
 
