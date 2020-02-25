@@ -1,0 +1,45 @@
+table {
+    font-family: "Ubuntu", sans-serif;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table thead th {
+    background-color: #7fb9c2;
+    color: black;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+table tbody th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+table tbody tr {
+    background-color: #e7f0ed;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+table tfoot td {
+    background-color: #7fb9c2;
+    font-size: .8em;
+}
+
+#achieved {
+    background-color: #628ca6;
+    color: white;
+}
