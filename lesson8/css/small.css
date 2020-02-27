@@ -92,7 +92,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-main h2 {
+main h2, p {
     text-align: center;
 }
 
