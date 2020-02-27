@@ -31,30 +31,10 @@ main {
     padding: 5px;
 }
 
-main div {
-    justify-content:center;
+form {
+    justify-content: center;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-}
-
-figure {
-    font-size: .8rem;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-    margin: 10px;
-    background-color: white;
-    box-shadow: 10px pink;
-}
-
-figure picture img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-figure picture img {
-    width: 100%;
-    filter: blur(0em);
-    transition: filter 0.5s;
 }
 
 h1 {
@@ -114,6 +94,20 @@ nav ul li a:hover {
 
 main h2 {
     text-align: center;
+}
+
+h3 {
+    margin: 2px auto;
+    text-align: center;
+}
+
+fieldset {
+    background-color: lightgrey;
+}
+
+.button input {
+    width: 100%;
+    margin: 2px auto;
 }
 
 #currentDate {

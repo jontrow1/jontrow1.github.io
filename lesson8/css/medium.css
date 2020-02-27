@@ -13,8 +13,4 @@
         width: 100%;
     }
 
-    main div {
-        grid-template-columns: 1fr 1fr;
-    }
-
 }
