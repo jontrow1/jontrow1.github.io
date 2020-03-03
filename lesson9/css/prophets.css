@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+    background-color: #F2F2F2;
+    border: 10px #F2F2F2 solid;
+    box-shadow: 0 0 50px black;
+}
+
+h1, h2, footer {
+    font-family: 'Ubuntu', sans-serif;
+    color: #494C8C;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    width: 50%;
+    box-shadow: 0 0 30px black;
+}
+
+p {
+    line-height: .5em;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+section {
+    margin: 3px;
+    padding-bottom: 10px;
+    border: 2px black solid;
+    background-color: #b9b9cc;
+}
+
+footer {
+    padding: 10px; 
+}
