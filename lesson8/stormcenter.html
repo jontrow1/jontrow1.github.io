@@ -42,32 +42,32 @@
   <main>
     <h2>Storm Center</h2>
     <div id="form">
-        <form action="" method="POST">
+        <form action="thanks.html" method="POST">
             <fieldset>
                 <h3>Personal Information</h3>
-                <label for="name">Full Name:</label>
+                <label>Full Name:</label>
                 <br>
                 <input type="text" name="name" placeholder="Your Name" pattern="[A-Za-z]{5,}" required>
                 <br>
-                <label for="email">Email: </label>
+                <label>Email: </label>
                 <br>
                 <input type="email" name="email" placeholder="email@byui.edu">
                 <br>
-                <label for="phone">Phone Number: </label>
+                <label>Phone Number: </label>
                 <br>
                 <input type="tel" name="phone" required>
                 <br>
-                <label for="zipcode">Zipcode: </label>
+                <label>Zipcode: </label>
                 <br>
                 <input type="number" name="zipcode" required>
             </fieldset>
             <fieldset>
                 <h3>Storm Details</h3>
-                <label for="stormdate">Storm Date: </label>
+                <label>Storm Date: </label>
                 <br>
                 <input type="date" name="stormdate">
                 <br>
-                <label for="stormtype">Storm Type: </label>
+                <label>Storm Type: </label>
                 <br>
                 <input list="stormlist" name="stormtype">
                 <datalist id="stormlist">
@@ -78,7 +78,7 @@
                     <option value="Tornado"></option>
                 </datalist>
                 <br>
-                <label class="flexly" for="rating">Storm Severity: </label>
+                <label class="flexly">Storm Severity: </label>
                 <br>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">5</span>
@@ -96,7 +96,7 @@
                     <option value="10">
                   </datalist>
                   <br>
-                  <label for="stormregion">Storm Region: </label>
+                  <label>Storm Region: </label>
                   <br>
                   <select name="stormregion">
                     <option value="">Select Region ...</option>
@@ -105,19 +105,19 @@
                     <option value="fishhaven">Fish Haven</option>
                   </select>
                 <br>
-                <label for="indanger">User In-Danger Level: </label>                
+                <label>User In-Danger Level: </label>                
                 <br>
                 <input type="radio" id="yes" name="indanger" value="yes">
-                <label for="yes">Yes</label>
+                <label>Yes</label>
                 <br>
                 <input type="radio" id="no" name="indanger" value="no">
-                <label for="no">No</label>
+                <label>No</label>
                 <br>
                 <input type="radio" id="maybe" name="indanger" value="maybe">
-                <label for="maybe">Maybe</label>
+                <label>Maybe</label>
             </fieldset>
             <fieldset>
-                <label for="comments">Additional Information or Comments: </label>
+                <label>Additional Information or Comments: </label>
                 <br>
                 <textarea id="comments" placeholder="Additional comments..."></textarea>
             </fieldset>
