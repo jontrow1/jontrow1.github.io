@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F3EAE1;
     font-size: 18px;
@@ -88,7 +92,6 @@ nav ul li a {
     text-align: center;
     font-size: smaller;
     margin-bottom: 10px;
-    position: absolute;
     top: 0;
     box-shadow: 0 0 30px black;
 }
@@ -136,6 +139,7 @@ main h2 {
 
 main figure.herophoto {
     width: 100%;
+    margin: 0;
 }
 
 main figure.herophoto img {
@@ -216,6 +220,7 @@ td {
     display: inline-block;
     padding: 0;
     margin: 0;
+    height: 125px;
 }
 
 #heroimage {
@@ -224,7 +229,8 @@ td {
 
 #articleimage {
     display: block;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     margin: 5px auto;
     box-shadow: 0 0 30px grey;
 }

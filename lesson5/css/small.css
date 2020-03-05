@@ -20,6 +20,7 @@ header {
     padding-top: 10px;
     /*text-align: center;*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -89,7 +90,6 @@ nav ul li a {
     text-align: center;
     font-size: smaller;
     margin-bottom: 10px;
-    position: absolute;
     top: 0;
     box-shadow: 0 0 30px black;
 }
