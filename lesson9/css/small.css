@@ -1,0 +1,171 @@
+body {
+    background-color: #F3EAE1;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 100%;
+    }
+
+header, main, nav, footer {
+    margin: auto auto;
+    max-width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+header, footer {
+    background-color: #87694D;
+    text-align: center;
+}
+
+header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: .9em;
+}
+
+main {
+    padding: 5px;
+}
+
+form {
+    justify-content: center;
+    width: 100%;
+    display: grid;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 0;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #ADD6E0;    
+    cursor: pointer;
+    width: 95%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ADD6E0;
+    display: block;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.current {
+    background-color: rgba(0, 0, 0, .3);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ADD6E0;
+    color: black;
+    cursor: pointer;
+}
+
+main h2, p {
+    text-align: center;
+}
+
+h3, h6 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    background-color: rgba(0, 0, 0, .05);
+    width: 90%;
+    padding: 5px;
+    border: 1px dotted rgba(0, 0, 0, .7);
+    margin: 5pt auto;
+}
+
+h6 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 0;
+    line-height: 1em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section img {
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 30px grey;
+    max-width: 300px;
+    width: 90%;
+}
+
+fieldset {
+    background-color: lightgrey;
+}
+
+.button input {
+    width: 100%;
+    margin: 2px auto;
+}
+
+#currentDate {
+    margin-top: -5px;
+}
+
+#companylogo {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height: 125px;
+}
+
+#companymotto {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*------ Clearfix: Force an Element not to collapse ------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
