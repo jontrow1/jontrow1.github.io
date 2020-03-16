@@ -17,13 +17,22 @@
         display: block;
     }
 
-    section {
+    section, .article {
         display: flex;
         flex-direction: row;
     }
       
-    section:nth-child(odd) {
+    section:nth-child(odd), .article:nth-child(odd) {
         flex-direction: row-reverse;
+    }
+
+    #articleimage {
+        margin: auto;
+        width: 200px;
+    }
+
+    .article p {
+        padding: 5px;
     }
 
     section div {

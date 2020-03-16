@@ -35,6 +35,7 @@ form {
     justify-content: center;
     width: 100%;
     display: grid;
+    grid-gap: 5px;
 }
 
 h1 {
@@ -96,9 +97,8 @@ main h2, p {
     text-align: center;
 }
 
-h3 {
-    margin: 2px auto;
-    text-align: center;
+legend {
+    font-weight: bold;
 }
 
 fieldset {

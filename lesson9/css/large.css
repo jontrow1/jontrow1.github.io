@@ -35,12 +35,11 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    section {
+    section, .article {
         display: grid;
-        flex-direction: row;
     }
       
-    section:nth-child(odd) {
+    section:nth-child(odd), section, .article:nth-child(odd), .article {
         flex-direction: row;
     }
     

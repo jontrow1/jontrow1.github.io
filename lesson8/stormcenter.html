@@ -42,12 +42,12 @@
   <main>
     <h2>Storm Center</h2>
     <div id="form">
-        <form action="thanks.html" method="POST">
+        <form action="thanks.html" method="GET">
             <fieldset>
-                <h3>Personal Information</h3>
+                <legend>Personal Information</legend>
                 <label>Full Name:</label>
                 <br>
-                <input type="text" name="name" placeholder="Your Name" pattern="[A-Za-z]{5,}" required>
+                <input type="text" name="name" placeholder="Your Name" pattern="[A-Za-z ]{5,}" required>*
                 <br>
                 <label>Email: </label>
                 <br>
@@ -55,14 +55,14 @@
                 <br>
                 <label>Phone Number: </label>
                 <br>
-                <input type="tel" name="phone" required>
+                <input type="tel" name="phone" required>*
                 <br>
                 <label>Zipcode: </label>
                 <br>
-                <input type="number" name="zipcode" required>
+                <input type="number" name="zipcode" required>*
             </fieldset>
             <fieldset>
-                <h3>Storm Details</h3>
+                <legend>Storm Details</legend>
                 <label>Storm Date: </label>
                 <br>
                 <input type="date" name="stormdate">
@@ -99,7 +99,7 @@
                   <label>Storm Region: </label>
                   <br>
                   <select name="stormregion">
-                    <option value="">Select Region ...</option>
+                    <option value="" disabled selected>Select Region ...</option>
                     <option value="preston">Preston</option>
                     <option value="sodasprings">Soda Springs</option>
                     <option value="fishhaven">Fish Haven</option>
@@ -122,7 +122,7 @@
                 <textarea id="comments" placeholder="Additional comments..."></textarea>
             </fieldset>
             <div class="button">
-                <input type="submit" value="Submit" onclick="location.href='thanks.html'">
+                <input type="submit" value="Submit">
             </div>
         </form>
     </div>
