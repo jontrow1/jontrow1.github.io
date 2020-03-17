@@ -29,9 +29,17 @@
         border-left: 1px solid rgba(0, 0, 0, .3);
     }
 
-    #map {
-        display: inline-block;
-        width: 500px;
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards section {
+        display: grid;
+    }
+      
+    .cards section:nth-child(odd), .cards section {
+        flex-direction: row;
     }
     
 }

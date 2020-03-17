@@ -92,6 +92,10 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+
+
+
+
 main h2, p {
     text-align: center;
 }
@@ -141,6 +145,11 @@ fieldset {
     width: 100%;
     margin: 2px auto;
 }
+
+
+
+
+
 
 #currentDate {
     margin-top: -5px;

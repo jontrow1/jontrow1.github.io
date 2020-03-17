@@ -44,7 +44,8 @@
 
     #map {
         display: inline-block;
-        width: 300px;
+        max-width: 500px;
+        width: 50%;
     }
     
     #articleimage {
@@ -53,5 +54,39 @@
         margin: 5px auto;
         box-shadow: 0 0 30px grey;
     }
-    
+
+    .cards {
+        display: block;
+    }
+
+    .cards section {
+        display: flex;
+        flex-direction: row;
+    }
+      
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .articleinset p {
+        padding: 5px;
+    }
+
+    .cards section div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .cards section img {
+        margin: auto;
+    }
+
+    .articleinset {
+        display: flex;
+    }
+
+    #insetimage {
+        margin: auto;
+        width: 200px;
+    }
 }
