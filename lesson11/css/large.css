@@ -41,5 +41,14 @@
     .cards section:nth-child(odd), .cards section {
         flex-direction: row;
     }
+
+    #gallerybox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallphoto:hover {
+        box-shadow: 0 0 20px black;
+    }
     
 }

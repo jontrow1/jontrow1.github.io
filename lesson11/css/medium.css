@@ -89,4 +89,8 @@
         margin: auto;
         width: 200px;
     }
+
+    #gallerybox {
+        grid-template-columns: 1fr 1fr;
+    }
 }

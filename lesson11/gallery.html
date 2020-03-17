@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>InvolveWX Gallery Page</title>
+  <meta name="description" content="This is the Involve WX gallery page.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  
+
+</head>
+
+<body>
+  
+  <header class="clearfix">
+    <div class="header">
+      <img id="companylogo" src="images/weatherlogo.png" alt="Involve WX logo image">
+      <div id="companymotto">
+        <h1>Involve WX</h1>
+        <h5>For all your activities Involve WX</h5>
+      </div>
+    </div>
+  </header>
+  
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="navMenu" class="hide">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="sodasprings.html" class="">Soda Springs</a></li>
+      <li><a href="fishhaven.html" class="">Fish Haven</a></li>
+      <li><a href="stormcenter.html" class="">Storm Center</a></li>
+      <li><a href="gallery.html" class="current">Gallery</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Image Gallery</h2>
+    <div id="gallerybox">
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/clearsky.jpg" alt="A clear sky over a lake">
+        </picture>
+      <figcaption>A beautiful day</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/cloudyidaho.jpg" alt="A cloudy sky over Idaho">
+        </picture>
+      <figcaption>A cloudy day in Idaho</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/lightning.jpg" alt="Lightning strike in the night">
+        </picture>
+      <figcaption>A lightning strike in the night</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/rainman.jpg" alt="A man walking in the rain">
+        </picture>
+      <figcaption>A man walking in the rain</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/snowidaho.jpg" alt="A snowy field in Idaho">
+        </picture>
+      <figcaption>A snowy field in Idaho</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/snowmountain.jpg" alt="A snow covered ground next to a hill">
+        </picture>
+      <figcaption>Hills covered in snow</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/storm.jpg" alt="A storm coming over a city">
+        </picture>
+      <figcaption>A storm coming over a city</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/sunsetidaho.jpg" alt="A sunset in rural Idaho">
+        </picture>
+      <figcaption>A sunset in Idaho</figcaption>
+      </figure>
+      <figure class="gallphoto">
+        <picture>
+          <img src="images/Placeholder2.jpg" data-src="images/windy.jpg" alt="Grass in the wind">
+        </picture>
+      <figcaption>Grass in the wind</figcaption>
+      </figure>
+    </div>    
+  </main>
+  
+  <footer>
+    &copy; Involve WX | Attributions | Jon Trowbridge
+    <p id="currentDate"></p> 
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/weather.js"></script>
+  <script src ="js/lazyload.js" defer></script>
+</body>
+</html>
