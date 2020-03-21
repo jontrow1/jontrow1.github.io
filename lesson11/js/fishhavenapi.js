@@ -9,6 +9,7 @@ fetch(apiURL)
     document.getElementById('temp').textContent = jsObject.main.temp_max;
     document.getElementById('humid').textContent = jsObject.main.humidity;
     document.getElementById('wspeed').textContent = jsObject.wind.speed;
+    computeWindChill();
 });
 
 
