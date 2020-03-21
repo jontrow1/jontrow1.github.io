@@ -199,6 +199,7 @@ td {
 
 .article p, .article li{
     font-family: 'Work Sans', sans-serif;
+    text-align: left;
 }
 
 .article li {
@@ -370,6 +371,11 @@ footer {
 
 #currentDate {
     margin-top: -5px;
+}
+
+footer a {
+    color: darkgrey;
+    text-decoration: none;
 }
 
 /* ----------- End of Footer Styling ----------- */
