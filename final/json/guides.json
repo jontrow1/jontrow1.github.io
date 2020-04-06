@@ -1,0 +1,52 @@
+{
+    "guides": [
+        {
+            "name": "Terrance Bilgin",
+            "certLevel": "Swiftwater Rescue Technician",
+            "yearsExp": "4 years on the water",
+            "email": "tbilgin@salmonriver.com",
+            "bio": "Terrance has been an avid water enthusiast since he was 8 years old. He had come here with his family and has never left. Summer after summer he would be here begging to work, so when he become of age, we put him to the test.",
+            "selfie": "images/terrance.jpg"
+        },
+        {
+            "name": "Tiffany Wilter",
+            "certLevel": "CPR, First Aid - AED Certification",
+            "yearsExp": "1 year on the water",
+            "email": "twilter@salmonriver.com",
+            "bio": "Tiffany loves the water, and has worked hard to be here. She is constantly looking for new ways to enjoy her time here and that helps her find new ways for you to enjoy your time as well.",
+            "selfie": "images/tiffany.jpg"
+        },
+        {
+            "name": "William Steele",
+            "certLevel": "River Rescue Certification - Professional",
+            "yearsExp": "10 years on the water",
+            "email": "wsteele@salmonriver.com",
+            "bio": "William has been here from the start. Not shy to tell you how it is, he will make sure you stay safe as you're having fun. He won't hesitate to scold you if you are about to do something unsafe but that is only because he cares.",
+            "selfie": "images/william.jpg"
+        },
+        {
+            "name": "Casey Fland",
+            "certLevel": "Whitewater Rescue Technician",
+            "yearsExp": "5 years on the water",
+            "email": "cfland@salmonriver.com",
+            "bio": "Casey came to us by shear accident. A graduate from some prestigious college, he majored in Arts. Of course when he couldn't find a career in that, he found a career here after a Spring Break gone right.",
+            "selfie": "images/casey.jpg"
+        },
+        {
+            "name": "Carter Davis",
+            "certLevel": "River Rescue Certification",
+            "yearsExp": "2 years on the water",
+            "email": "cdavis@salmonriver.com",
+            "bio": "Carter was afraid of everything under the sun but when he lost a bet, he took a ride on one of our more experienced course. After a very harrowing adventure, he came out of it with more courage to do anything.",
+            "selfie": "images/carter.jpg"
+        },
+        {
+            "name": "Carrie White",
+            "certLevel": "Trainee",
+            "yearsExp": "0 years on the water",
+            "email": "cwhite@salmonriver.com",
+            "bio": "Our freshest meat, Carrie is only here in the summers as she completes her degree in Business Administration. When she is not helping us stay up and running, she is learning the ropes from William. Those two have become quite the unlikely pair but the knowledge she is gaining, is something worth holding on to.",
+            "selfie": "images/carrie.jpg"
+        } 
+    ]
+}

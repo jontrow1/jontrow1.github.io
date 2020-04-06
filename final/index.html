@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Salmon Rivers Adventure Home Page</title>
+  <meta name="description" content="This is the Salmon River Adventures Home Page">
+  <link rel="shortcut icon" href="favicon-final.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <div>
+      <img id="companylogo" src="images/logo.png" alt="Salmon River Adventures logo image">
+      <div id="companymotto">
+        <h1>Salmon River Adventures</h1>
+        <h4><i>When you just need to get wet</i></h4>
+      </div>
+    </div> 
+  </header>
+
+  <nav class="clearfix">
+    <div id="smallweather"><span id ="temp"></span>&deg;F - <span id="currently"></div>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li><a href="index.html" class="current">Home</a></li>
+      <li><a href="adventures.html" class="">Adventures</a></li>
+      <li><a href="riverguides.html" class="">River Guides</a></li>
+      <li><a href="reservations.html" class="">Reservations</a></li>
+      <li><a href="contacts.html" class="">Contact Us</a></li>
+    </ul>    
+  </nav>
+
+  <main>
+    
+    <div class="actioncontainer">
+        <figure class="herophoto">
+          <img src="images/rapids-large.jpg" alt="Rapids through rocks"  sizes="90vw"
+              srcset="images/rapids-small.jpg 300w,
+                      images/rapids-medium.jpg 500w,
+                      images/rapids-large.jpg 800w">
+        </figure>
+
+        <h3 id="call">The rapids are calling, so come on over and get in a raft with us today.</h3>
+        <section class="weathersummary">
+          <p>Currently: <span id="currently1"></span></p>
+          <p>Current Temp: <span id ="temp1"></span>&deg;F</p>
+          <p>Wind Chill: <span id="wchill"></span></p>
+          <p>Humidity: <span id="humid"></span>%</p>
+          <p>Wind Speed: <span id="wspeed"></span> mph</p>
+        </section>
+      </div>
+
+    <div class="article">
+      <img id="articleimage" src="images/orange-parked-raft.jpg" alt="Orange raft parked upon the bank of a river">
+      <h4>Overnight Rafting</h4>
+      <h5><i>By Jon Trowbridge</i></h5>
+      <p>Come and join us for a two day rafting trip. We spend ony a few hours going over safety, prepping the rafts and the itinerary. We will then spend the majority of the day rafting down the river. We will then set up camp at a designated location here we will sleep under the stars and get a feel of what it means to camp in Idaho.<br><br>
+      The next morning we will get up, pack the camp up again and then head back out on the raft. We will spend another full day enjoying the rapids and views that the river has to offer. Don't worry about how far we have traveled, a bus will meet us at the end of our journey to take us back to the "office" for a fantastic dinner to celebrate our wonderful journey.</p>
+    </div>
+
+    <div class="slideshow">
+      <div class="testimonialcards"></div> 
+      <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button> 
+    </div>
+    
+  </main>
+
+  <footer>
+    &copy; Salmon river Adventures | <a id="weathermap" href="https://openweathermap.org/">openweathermap.org</a> | Jon Trowbridge | <span id="currentDate"></span>
+    <div class="contact">
+      1000 S Main St, Riggins, ID 83549 | 999.999.9999 | salmonriveradventures@gmail.com |
+      <img class="socialmedia" src="images/facebook.png" alt="facebook logo">
+      <img class="socialmedia" src="images/twitter.png" alt="Twitter logo">
+      <img class="socialmedia" src="images/pinterest.png" alt="pinterest logo">
+      <img class="socialmedia" src="images/whatsapp2.png" alt="whatsapp2 logo">
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/testimonials.js"></script>
+  <script src="js/base.js"></script>
+  <script src="js/slideshow.js"></script>
+  <script src="js/weatherapi.js"></script>
+</body>
+</html>

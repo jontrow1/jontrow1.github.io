@@ -1,0 +1,49 @@
+@media only screen and (min-width: 64em) {
+
+    main, footer {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    /*-- Navigation --*/
+    nav ul {
+        justify-content: center;
+        display: flex;
+    }
+
+    nav ul.hide {display: flex;}
+    nav button {display: none;}
+    nav ul li {float: left;}
+    nav ul li a {padding: .6rem 1rem;}
+    
+    /*-- Weather Summary --*/
+    #smallweather {display: none;}
+
+    .weathersummary {
+        display: block;
+        position: absolute;
+        font-weight: bold;
+        top: -20px;
+        left: -20px;
+        background: radial-gradient(#d2897e, #FF404B);
+        border: 3px solid black;
+        padding: .5rem;
+        box-shadow: 0 0 30px #6C96A1;
+        line-height: .5;
+        transform: scale(0.7);
+    }
+    
+    /*-- River Guides --*/
+    .guidecards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .guidecards section {
+        display: grid;
+    }
+      
+    .guidecards section:nth-child(odd), .cards section {
+        flex-direction: row;
+    }
+}

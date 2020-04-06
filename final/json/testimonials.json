@@ -1,0 +1,46 @@
+{
+    "testimonials": [
+        {
+            "title": "Been There, Did That",
+            "firstName": "James",
+            "lastName": "Dubay",
+            "text": "I'm the kind of guy who likes to jump out of airplanes for the fun of it. I like quick burst of adrenaline and wild rides. I'm not the kind of person who likes to sit idle, so when I heard about the Salmon River Adventures and all they had to offer, I just knew I needed to stop by. They did not dissapooint.",
+            "imageurl": "images/blue-kayak.jpg"
+        },
+        {
+            "title": "A Great Day with the Family",
+            "firstName": "Benjamin",
+            "lastName": "Spitler",
+            "text": "Trying to find an activity to do with the family is hard. We all like different things but we all like to be together. That is why when I heard about the family bundles at Salmon River Adventures, I knew this would be the thing we could all do together. Now when we make our trip to Idaho on an annual basis, this will be a destination.",
+            "imageurl": "images/blue-yellow-rafts.jpg"
+        },
+        {
+            "title": "A Day for Soggy Socks",
+            "firstName": "Travis",
+            "lastName": "Newton",
+            "text": "I hate water activities, mainly I hate getting my feet wet. So, when the company I work for said they were having a Team Building Exercise at Salmon River Adventures, I groined. My wife said I had to go. I enjoyed my time there, even with my wet socks. The staff was friendly and I got to check that off my list.",
+            "imageurl": "images/grey-raft.jpg"
+        },
+        {
+            "title": "Glad to be Outdoors",
+            "firstName": "Alexis",
+            "lastName": "Savannah",
+            "text": "Do you know how great it feels to be able to leave your house again? Ah, the fresh outdoors, it has been too long my friend. COVID-19 has ruined the better part of my year but finally, I get to come and enjoy the watery goodness of whitewater rafting at Salmon River Adventures with my fellow friends. Everyone was excited to be with each other and not a single person was in a bad mood. This place is great!",
+            "imageurl": "images/green-raft.jpg"
+        },
+        {
+            "title": "Just Me and My Best Friend",
+            "firstName": "Gil",
+            "lastName": "Dwingvatt",
+            "text": "Afetr a hard day of slaying kobolds and looting dragon hoards, the best thing to do to unwind is get out on the river and just relax. After the work we put in me and my companion love coming to Salmon River Adventures to hop in a kayak and go downstream. What more can two guys ask for?",
+            "imageurl": "images/red-canoe.jpg"
+        },
+        {
+            "title": "Your Story Here...",
+            "firstName": "Your Name",
+            "lastName": "Here",
+            "text": "Your story could be here, click here to tell us your story",
+            "imageurl": "images/yellow-parked-boats.jpg"
+        }
+    ]
+}

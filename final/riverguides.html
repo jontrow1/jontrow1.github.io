@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Salmon Rivers Adventure River Guide Page</title>
+  <meta name="description" content="This is the Salmon River Adventures River Guide Page">
+  <link rel="shortcut icon" href="favicon-final.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <div>
+      <img id="companylogo" src="images/logo.png" alt="Salmon River Adventures logo image">
+      <div id="companymotto">
+        <h1>Salmon River Adventures</h1>
+        <h4><i>When you just need to get wet</i></h4>
+      </div>
+    </div> 
+  </header>
+
+  <nav class="clearfix">
+    <div id="smallweather"><span id ="temp"></span>&deg;F - <span id="currently"></div>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li><a href="index.html" class="">Home</a></li>
+      <li><a href="adventures.html" class="">Adventures</a></li>
+      <li><a href="riverguides.html" class="current">River Guides</a></li>
+      <li><a href="reservations.html" class="">Reservations</a></li>
+      <li><a href="contacts.html" class="">Contact Us</a></li>
+    </ul>    
+  </nav>
+
+  <main>
+    <h2>Our Expert River Guides</h2>
+    <div class="guidecards"></div>    
+  </main>
+
+  <footer>
+    &copy; Salmon river Adventures | <a id="weathermap" href="https://openweathermap.org/">openweathermap.org</a> | Jon Trowbridge | <span id="currentDate"></span>
+    <div class="contact">
+      1000 S Main St, Riggins, ID 83549 | 999.999.9999 | salmonriveradventures@gmail.com |
+      <img class="socialmedia" src="images/facebook.png" alt="facebook logo">
+      <img class="socialmedia" src="images/twitter.png" alt="Twitter logo">
+      <img class="socialmedia" src="images/pinterest.png" alt="pinterest logo">
+      <img class="socialmedia" src="images/whatsapp2.png" alt="whatsapp2 logo">
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/guides.js"></script>
+  <script src="js/base.js"></script>
+  <script src="js/weatherapi.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+    "adventures": [
+        {
+            "name": "Basic Rafting",
+            "time": "Approximately 4.5 hours",
+            "skillLevel": "All",
+            "cost": "$75/person",
+            "services": "Includes complimentary insulated bottle ($20 value), transportation to and from the river, rafting equipment and guides."
+        },
+        {
+            "name": "Canoeing",
+            "time": "3 hours",
+            "skillLevel": "Beginner",
+            "cost": "$65/person",
+            "services": "Includes guided tour and canoe rental."
+        },
+        {
+            "name": "Kayaking",
+            "time": "3 hours",
+            "skillLevel": "Intermediate",
+            "cost": "$50/person",
+            "services": "Includes kayak and equipment rental, and a map upon request."
+        },
+        {
+            "name": "Overnight Rafting",
+            "time": "2 days",
+            "skillLevel": "Intermediate",
+            "cost": "$795/person",
+            "services": "Includes basic rafting plus gear for hiking, camping, and meals."
+        },
+        {
+            "name": "Rock Climbing",
+            "time": "1 day",
+            "skillLevel": "All",
+            "cost": "$25/person",
+            "services": "Includes instruction, equipment, admission and return visit."
+        },
+        {
+            "name": "Paintball",
+            "time": "1 day",
+            "skillLevel": "All (must be 10 years or older)",
+            "cost": "$50/person",
+            "services": "Includes field fees and all day air, paintball marker, face/goggles, tank, hopper, and 500 paintballs (2000 paintballs for an additional $30)."
+        } 
+    ]
+}

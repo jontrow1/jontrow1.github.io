@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35em) {
+
+    #articleimage {float: right;}
+
+    /*-- River Guides --*/
+    .guidecards {
+        display: block;
+    }
+
+    .guidecards section {
+        display: flex;
+        flex-direction: row;
+    }
+      
+    .guidecards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .guidecards section div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .guidecards section img {
+        margin: auto;
+    }
+}
