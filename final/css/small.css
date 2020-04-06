@@ -259,7 +259,10 @@ h2 {
 
 #map {
     width: 100%;
+    border: none;
 }
+
+
 
 form {
     justify-content: left;
